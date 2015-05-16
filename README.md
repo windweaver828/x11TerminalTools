@@ -3,6 +3,14 @@
 
 ### What is this repository for? ###
 
+Uses sbd on linux machines only at this
+time with x-terminal-emulator which
+should be the terminal of your choice.
+To set that terminal if it isn't set
+already use
+"sudo ln -s /path/to/terminal /usr/bin/x-terminal-emulator"
+and it should work pretty well. 
+
 Tools I use (mostly for fun) during
 ssh sessions to chat and aid in
 remote assistance among other things.
