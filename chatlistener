@@ -1,0 +1,7 @@
+#!/bin/bash
+
+export DISPLAY=:0
+
+CHAT_COMMAND="sbd -lp 31337 -H on"
+
+x-terminal-emulator -e $CHAT_COMMAND &

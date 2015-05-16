@@ -1,0 +1,9 @@
+#!/bin/bash
+
+export DISPLAY=:0
+
+COMMAND="screen -S cloned"
+
+x-terminal-emulator -e $COMMAND &
+sleep 2
+screen -x cloned
